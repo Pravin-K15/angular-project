@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
-import { HomepageGalleryComponent } from './component/homepage-gallery/homepage-gallery.component';
-import { HomepageArticlescomponent } from './component/homepage-articles/homepage-articles.component';
-import { ReadmoreComponent } from './component/readmore/readmore.component';
+import { HomepageGalleryComponent } from './components/homepage-gallery/homepage-gallery.component';
+import { HomepageArticlescomponent } from './components/homepage-articles/homepage-articles.component';
+import { ReadmoreComponent } from './components/readmore/readmore.component';
 
 @NgModule({
   declarations: [
