@@ -1,0 +1,16 @@
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul strong{
+    display: block;
+}
+
+ul li{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+cite {display: block;}

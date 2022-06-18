@@ -1,0 +1,8 @@
+<ul>
+    <li *ngFor="let article of articles">
+        <strong (click)="titleClick(article.title)">{{article.title}} <span *ngIf="article.recommended">⭐</span></strong>
+        <app-readmore [content]="article.body" [size]="50"></app-readmore>
+        <cite>by {{article.author}}</cite>
+        <time>{{article.date | date}}</time>
+    </li>
+</ul>

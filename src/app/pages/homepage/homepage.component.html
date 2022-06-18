@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <app-homepage-gallery></app-homepage-gallery>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <app-homepage-articles [articles]="science"></app-homepage-articles>
+        </div>
+        <div class="col-6">
+            <app-homepage-articles [articles]="sports"></app-homepage-articles>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <app-readmore [content]="homepageTextContent" [size]="100"></app-readmore>
+        </div>
+    </div>
+</div>
